@@ -1,7 +1,12 @@
 = Flags library for Arduino =
 
 The flag library provides a simple set and compare methods for the 8 bits of a byte.
- 
+
+With set() a complete byte is written, with get() the byte is returned.
+
+set_flag(n, val) sets the n-th bit to the boolean val
+get_flag(n) is true, if the n-th bit is set
+
 For more information about this library please visit us at
 http://nibble-arts.org
 
