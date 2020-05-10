@@ -2,7 +2,7 @@
 
 The flag library provides a simple set and compare methods for the 8 bits of a byte.
 
-* set() wires a complete byte
+* set() writes a complete byte
 * get() returns the byte
 * set_flag(n, val) sets the n-th bit to the boolean val
 * get_flag(n) returns the boolean value of the n-th bit
