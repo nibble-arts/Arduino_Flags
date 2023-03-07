@@ -18,7 +18,7 @@
 class FLAGS {
 
 	public:
-		FLAGS::FLAGS();
+		FLAGS(void);
 		void begin(void);
 
 		void set(uint8_t data); // set complete byte
